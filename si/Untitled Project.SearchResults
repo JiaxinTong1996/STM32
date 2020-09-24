@@ -1,0 +1,20 @@
+---- motordirection Matches (21 in 1 files) ----
+Main.c (src):int32_t motordirection;//电机方向
+Main.c (src)://	motordirection = DIR_FORWARD;		  
+Main.c (src):				motordirection = DIR_FORWARD;
+Main.c (src):				motordirection = DIR_BACKWARD;	// 其它测试直接返回
+Main.c (src)://				motordirection = DIR_FORWARD;
+Main.c (src)://				motordirection = DIR_BACKWARD;	
+Main.c (src)://				motordirection = DIR_FORWARD;
+Main.c (src)://				motordirection = DIR_BACKWARD;	
+Main.c (src):		} else if ((Distance>=gs32TestDistance) && (motordirection==DIR_FORWARD)){  // 终点位置
+Main.c (src):			setMotor1Speed(motordirection, 0);
+Main.c (src):					setMotor1Speed(motordirection, 0);
+Main.c (src):			setMotor1Speed(motordirection,19200);
+Main.c (src):						setMotor1Speed(motordirection,0);
+Main.c (src):						motordirection=-motordirection;
+Main.c (src):						setMotor1Speed(motordirection,0);
+Main.c (src):						motordirection=-motordirection;
+Main.c (src):		setMotor1Speed(motordirection,ispeed);
+Main.c (src):		setMotor1Speed(motordirection,ispeed);
+Main.c (src)://		setMotor1Speed(motordirection,2400);
